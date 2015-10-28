@@ -1,0 +1,21 @@
+/*opplScriptString += "?x:CLASS=Match(\"'(?i)([\\(\\)\\, a-zA-Z0-9_\\-]+)hormone receptor binding'\"),"+"\n";
+opplScriptString += "?y:CLASS=Match(\"'(?i)hormone receptor binding'\")"+"\n";
+opplScriptString += "SELECT"+"\n";
+opplScriptString += "?x subClassOf 'molecular_function',"+"\n";
+opplScriptString += "?y subClassOf 'molecular_function'"+"\n";
+opplScriptString += "WHERE"+"\n";
+opplScriptString += "?x Match(\"'(?i)([\\(\\)\\, a-zA-Z0-9_\\-]+)hormone receptor binding'\"),"+"\n";
+opplScriptString += "?y Match(\"'(?i)hormone receptor binding'\")"+"\n";
+opplScriptString += "BEGIN"+"\n";
+opplScriptString += "ADD ?x subClassOf ?y"+"\n";
+opplScriptString += "END;"+"\n";*/
+		
+/*opplScriptString = "?x:CLASS=Match(\"'(?i)([\\(\\)\\, a-zA-Z0-9_\\-]+)hormone receptor binding'\")"+"\n";
+opplScriptString += "SELECT "+"\n";
+opplScriptString += "?x SubClassOf 'molecular_function' "+"\n";
+opplScriptString += "WHERE "+"\n";
+opplScriptString += "?x Match(\"'hormone receptor binding'\")"+"\n";
+opplScriptString += "BEGIN "+"\n";
+opplScriptString += "ADD ?x SubClassOf 'binding' "+"\n";
+opplScriptString += "END;";*/
+		
